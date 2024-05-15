@@ -624,10 +624,10 @@ def main():
     print(f"HTML file '{html_link}' created with blog content.")
 
     db_config = {
-       "host": "62.72.37.52",
-        "user": "u660430280_Alonso",
-        "password": "Alon89008900!!",
-        "database": "u660430280_DBWEBSITEIL"
+       "host": "local host",
+        "user": "username",
+        "password": "password",
+        "database": "Db"
     }
 
     save_to_db(blog_content, prompt, db_config, html_link)
